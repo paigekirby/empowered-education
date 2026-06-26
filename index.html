@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowered Education | SEND Tutoring & EHCP Consultancy</title>
+    <style>
+        :root {
+            --primary: #4a6fa5;
+            --secondary: #166088;
+            --dark: #2b2d42;
+            --light: #f4f7f6;
+            --accent: #e63946;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: var(--light); color: var(--dark); line-height: 1.6; }
+        header { background: white; padding: 20px 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .logo { font-size: 1.5rem; font-weight: bold; color: var(--secondary); }
+        .hero { padding: 80px 5%; text-align: center; background: linear-gradient(135deg, #e0e9f5 0%, #f4f7f6 100%); }
+        .hero h1 { font-size: 2.8rem; color: var(--secondary); margin-bottom: 20px; }
+        .hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto 30px auto; color: #4a5568; }
+        .btn { display: inline-block; background: var(--primary); color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background 0.3s; }
+        .btn:hover { background: var(--secondary); }
+        .container { max-width: 1100px; margin: 0 auto; padding: 60px 20px; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 40px; }
+        .service-card { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 4px solid var(--primary); }
+        .service-card h3 { color: var(--secondary); margin-bottom: 15px; }
+        .about-section { background: white; padding: 60px 5%; border-radius: 8px; margin-top: 40px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .about-section h2 { color: var(--secondary); margin-bottom: 20px; }
+        .cta-section { text-align: center; padding: 60px 20px; background: var(--secondary); color: white; border-radius: 8px; margin-top: 60px; }
+        .cta-section h2 { margin-bottom: 15px; }
+        .cta-section p { margin-bottom: 30px; opacity: 0.9; }
+        .cta-btn { background: white; color: var(--secondary); }
+        .cta-btn:hover { background: var(--light); color: var(--dark); }
+        footer { text-align: center; padding: 40px 20px; color: #718096; font-size: 0.9rem; }
+        @media (max-width: 768px) { .hero h1 { font-size: 2rem; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Empowered Education</div>
+    </header>
+
+    <section class="hero">
+        <h1>Professional SEND Tutoring & EHCP Consultancy</h1>
+        <p>Empowering learners of all ages and supporting families to navigate the world of special educational needs with confidence.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+
+    <div class="container">
+        <section id="about" class="about-section">
+            <h2>Expert Support from an Experienced SENCO</h2>
+            <p>Welcome to Empowered Education. As an experienced SEND tutor and former Special Educational Needs Coordinator (SENCO), I understand that education is not one-size-fits-all. Whether your child needs tailored learning support, you are a young person or adult working toward functional skills, or you are a parent trying to secure the right provisions through the EHCP process—I am here to guide you every step of the way.</p>
+        </section>
+
+        <section id="services" style="margin-top: 60px;">
+            <h2 style="text-align: center; color: var(--secondary);">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>SEND Tutoring</h3>
+                    <p>Tailored, person-centred tutoring designed for learners of all ages with special educational needs and disabilities to build confidence and unlock potential.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Functional Skills</h3>
+                    <p>Dedicated tutoring for teenagers and adults looking to achieve their Functional Skills qualifications in a calm, supportive, and structured environment.</p>
+                </div>
+                <div class="service-card">
+                    <h3>EHCP Consultancy</h3>
+                    <p>Professional guidance and advocacy for parents and carers navigating the Education, Health and Care Plan (EHCP) application, review, or appeal process.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Visual Aid Design</h3>
+                    <p>Bespoke creation of high-quality visual timetables, communication aids, and learning prompts customized to support individual learning routines at home or school.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="cta-section">
+            <h2>How can I help you?</h2>
+            <p>If you would like to discuss tutoring availability, need advice on an EHCP, or want to inquire about custom visual aids, please send an email. I aim to get back to all enquiries within 48 hours.</p>
+            <!-- Replace the email address below with your actual Zoho email address -->
+            <a href="mailto:hello@empowered-education.co.uk" class="btn cta-btn">Email Empowered Education</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Empowered Education. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
