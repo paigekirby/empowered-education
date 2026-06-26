@@ -1,0 +1,10 @@
+name = "empowered-education"
+compatibility_date = "2026-06-26"
+
+[assets]
+directory = "./"
+
+routes = [
+  { pattern = "empowered-education.co.uk", custom_domain = true },
+  { pattern = "www.empowered-education.co.uk", custom_domain = true }
+]
